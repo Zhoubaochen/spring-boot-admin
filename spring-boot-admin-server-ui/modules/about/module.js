@@ -28,7 +28,7 @@ module.config(function ($stateProvider) {
 
 module.run(function (MainViews) {
   MainViews.register({
-    title: 'About',
+    title: '关于',
     state: 'about',
     order: 200
   });

@@ -1,5 +1,5 @@
-<div class="container-fluid">
-    <h3>Spring Boot<sup>®</sup> applications</h3>
+ <div class="container-fluid">
+    <h3>Spring Boot<sup>®</sup> 应用列表</h3>
     <div>
         <input placeholder="Filter" class="input-xxlarge" type="search" ng-model="searchFilter"/>
     </div>
@@ -9,14 +9,14 @@
             <th class="group-column" title="{{expandAll ? 'collapse' : 'expand'}} all" ng-click="toggleExpandAll()"><i
                     class="fa" ng-class="{'fa-plus': !expandAll, 'fa-minus': expandAll}"></i></th>
             <th class="name-column"><span class="sortable" ng-class="orderByCssClass('name')"
-                                          ng-click="orderBy('name')">Application</span> / <span class="sortable"
+                                          ng-click="orderBy('name')">应用名称</span> / <span class="sortable"
                                                                                                 ng-class="orderByCssClass('healthUrl')"
                                                                                                 ng-click="orderBy('healthUrl')">URL</span>
             </th>
             <th class="version-column"><span class="sortable" ng-class="orderByCssClass('info.build.version')"
-                                             ng-click="orderBy('info.build.version')">Version</span></th>
-            <th class="info-column">Info</th>
-            <th class="status-column">Status</th>
+                                             ng-click="orderBy('info.build.version')">版本</span></th>
+            <th class="info-column">应用信息</th>
+            <th class="status-column">应用状态</th>
         </tr>
         </thead>
         <tbody>

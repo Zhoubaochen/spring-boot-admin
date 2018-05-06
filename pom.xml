@@ -8,12 +8,12 @@
     <packaging>pom</packaging>
     <name>Spring Boot Admin</name>
     <description>Spring Boot Admin</description>
-    <url>https://github.com/codecentric/spring-boot-admin/</url>
+    <url>https://github.com/Zhoubaochen/spring-boot-admin/</url>
     <properties>
         <revision>1.5.8-SNAPSHOT</revision>
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
         <spring-cloud.version>Edgware.RELEASE</spring-cloud.version>
-        <hystrix-dashboard.version>1.5.5</hystrix-dashboard.version>
+        <hystrix-dashboard.version>1.5.12</hystrix-dashboard.version>
 
         <java.version>1.7</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -60,38 +60,13 @@
         <module>spring-boot-admin-starter-client</module>
         <module>spring-boot-admin-samples</module>
     </modules>
-    <organization>
-        <name>codecentric AG</name>
-        <url>http://www.codecentric.de</url>
-    </organization>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
     </licenses>
-    <scm>
-        <connection>scm:git:git://github.com/codecentric/spring-boot-admin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/codecentric/spring-boot-admin.git</developerConnection>
-        <url>https://github.com/codecentric/spring-boot-admin</url>
-    </scm>
-    <developers>
-        <developer>
-            <name>Johannes Edmeier</name>
-            <email>johannes.edmeier@codecentric.de</email>
-            <organization>codecentric AG</organization>
-        </developer>
-        <developer>
-            <name>Thomas Bosch</name>
-            <email>thomas.bosch@codecentric.de</email>
-            <organization>codecentric AG</organization>
-        </developer>
-        <developer>
-            <name>Dennis Schulte</name>
-            <email>dennis.schulte@codecentric.de</email>
-            <organization>codecentric AG</organization>
-        </developer>
-    </developers>
+    
     <build>
         <plugins>
             <plugin>

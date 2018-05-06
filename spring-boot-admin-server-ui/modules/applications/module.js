@@ -65,7 +65,7 @@ module.config(function ($stateProvider) {
 
 module.run(function ($rootScope, $state, Notification, Application, ApplicationGroups, MainViews) {
   MainViews.register({
-    title: 'Applications',
+    title: '应用列表',
     state: 'applications-list',
     order: -100
   });

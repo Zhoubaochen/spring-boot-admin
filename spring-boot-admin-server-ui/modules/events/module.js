@@ -39,7 +39,7 @@ module.config(function ($stateProvider) {
 
 module.run(function (MainViews) {
   MainViews.register({
-    title: 'Journal',
+    title: '日志',
     state: 'events',
     order: 100
   });

@@ -21,17 +21,17 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<!-- end::dependency-eureka[] -->
-		<!-- tag::dependency-ui-hystrix[] -->
+		<!-- tag::dependency-ui-hystrix[] 
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-server-ui-hystrix</artifactId>
-		</dependency>
+		</dependency>-->
 		<!-- end::dependency-ui-hystrix[] -->
-		<!-- tag::dependency-ui-turbine[] -->
+		<!-- tag::dependency-ui-turbine[] 
 		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-server-ui-turbine</artifactId>
-		</dependency>
+		</dependency>-->
 		<!-- end::dependency-ui-turbine[] -->
 		<dependency>
 			<groupId>org.jolokia</groupId>
